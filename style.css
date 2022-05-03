@@ -1,0 +1,114 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #222;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+    
+}
+/* header{
+    border-bottom: 0.8rem solid #fff;
+} */
+.main--heading{
+    color: #fff;
+    font-size: 2.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    
+}
+.try--again{
+    background-color: #fff;
+    font-family: inherit;
+    position: absolute;
+    right:2rem;
+    top:1.2rem;
+    border: none;
+
+    padding:1.2rem 2rem;
+    /* margin:1.2rem 2rem; */
+}
+.range{
+    position:absolute;
+    left: 1.4rem;
+    top: 2.4rem;
+    color: #fff;
+    font-size: 0.8rem;
+
+}
+.question{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    font-size: 5rem;
+    padding: 1.8rem 3.2rem;
+}
+.border{
+    position:absolute;
+    border-bottom: 0.8rem solid #fff;
+    top: 30%;
+    width: 100%;
+    z-index: -1;
+}
+
+.main--section{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right{
+    margin-bottom:3rem;
+}
+.right p{
+    font-size:1.6rem;
+    color: #fff;
+}
+.final{
+    padding:3rem;
+    font-size: 1.6rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.infi{
+    border:0.4rem solid #fff;
+    background: none;
+    width:35%;
+    font-size: 3rem;
+    font-family: inherit;
+    color: #fff;
+    padding: 1.2rem;
+
+
+
+}
+.guess{
+    border:none;
+    background-color: #fff;
+    font-size: 1.8rem;
+    font-family: inherit;
+    padding:0.8rem 1.8rem;
+
+    
+}
