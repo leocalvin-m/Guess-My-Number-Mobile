@@ -37,6 +37,7 @@ document.querySelector('.guess').addEventListener('click', function () {
             document.querySelector('.lscore').textContent = score;
         } else {
             displayMsg('You Lost!');
+            document.querySelector('body').style.backgroundColor = '#e03131';
             document.querySelector('.lscore').textContent = 0;
         }
         
